@@ -1,10 +1,16 @@
+import NavBar from './components/navbar/Navbar'
+import { useState } from 'react'
 import './index.css'
 
 function App() {
 
+  const [darkMode, setDarkMode] = useState(false)
+
+ 
+
   return (
-    <main>
-      <h1>hola</h1>
+    <main className={darkMode === false ? 'default' : 'dark'}>
+      <NavBar darkMode={darkMode} setDarkMode={setDarkMode}/>
     </main>
   )
 }
