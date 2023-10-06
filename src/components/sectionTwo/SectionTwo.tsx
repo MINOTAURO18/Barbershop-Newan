@@ -4,7 +4,7 @@ import bg2 from '../../assets/bg2.webp'
 
 const SectionTwo = () => {
   return (
-    <section className={`${styles.sectionTwo} text-black px-8% py-20`}>
+    <section className={`${styles.sectionTwo} flex flex-col gap-3 text-black px-8% py-20`}>
       
       <h2 className="text-2xl font-semibold">Titulo</h2>
       <div className="flex justify-center items-center gap-3">

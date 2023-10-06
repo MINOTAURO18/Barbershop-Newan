@@ -15,6 +15,7 @@
 .sectionTwo .bg2{
     width: 50%;
     min-width: 450px;
+    border-radius: 12px;
 }
 
 .sectionTwo h2{
