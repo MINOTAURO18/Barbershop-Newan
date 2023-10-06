@@ -6,3 +6,11 @@
     background-size: cover;
     
 }
+
+.sectionOne h1{
+    color: #DCA000;
+}
+
+.sectionOne hr{
+    border-width: 1px ;
+}
