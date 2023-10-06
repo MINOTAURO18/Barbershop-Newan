@@ -21,4 +21,35 @@
 .sectionTwo h2{
     color:#DCA000;
     text-align: center;
+    font-size: 22px;
+}
+
+.sectionTwo h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sectionTwo h3, h5{
+    font-size: 20px !important;
+    color:#DCA000;
+    font-weight: 900;
+
+}
+
+.sectionTwo .btn{
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #DCA000;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+.sectionTwo .btn:hover{
+    box-shadow: 0 0 10px rgba(94, 84, 1, 0.9);
 }
