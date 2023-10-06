@@ -17,6 +17,8 @@ function App() {
       <SectionOne/>
       <SectionTwo/>
       <SectionThree/>
+      
+    
     </main>
   )
 }

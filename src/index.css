@@ -20,8 +20,9 @@
 .dark{
   width: 100%;
   min-height: 100vh;
-  background-color: rgb(0, 5, 12);
+  background-color: rgb(0, 0, 0);
   transition: all .3s ease-in-out;
+  color: white;
 }
 
 

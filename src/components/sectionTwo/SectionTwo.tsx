@@ -12,7 +12,7 @@ const SectionTwo = () => {
         <img className={` ${styles.bigote} w-8`} src={shair} alt="" />
         <hr className="w-32" />
       </div>
-      <article className={`${styles.container} flex flex-wrap items-center gap-12`}>
+      <article className={`${styles.container} flex justify-center flex-wrap items-center gap-20`}>
       <img className={`${styles.bg2}`} src={bg2} alt="" />
        <div className="flex flex-col gap-4">
           <h3 className="font-semibold text-2xl">Servicios</h3>
