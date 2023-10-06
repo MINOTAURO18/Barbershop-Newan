@@ -14,3 +14,9 @@
 .sectionOne hr{
     border-width: 1px ;
 }
+
+.sectionOne a:hover{
+    background-color: #DCA000;
+    transition: all .3s ease;
+
+}

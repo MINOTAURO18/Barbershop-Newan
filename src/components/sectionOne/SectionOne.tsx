@@ -10,7 +10,7 @@ const SectionOne = () => {
             <h1 className='text-6xl font-semibold'>BARBERSHOP</h1>
             <div className='flex justify-center items-center gap-3'>
                 <hr className='w-32' />
-                <img className='w-7' src={bigotes} alt="" />
+                <img className='w-8' src={bigotes} alt="" />
                 <hr className='w-32' />
             </div>
             <div>
