@@ -1,0 +1,23 @@
+.sectionTwo {
+  width: 100%;
+  min-height: 90vh;
+}
+
+.sectionTwo .bigote{
+    filter: invert(61%) sepia(72%) saturate(3170%) hue-rotate(16deg) brightness(105%) contrast(101%);
+}
+
+.sectionTwo hr{
+    border-color: black;
+    border-width: 1px;
+}
+
+.sectionTwo .bg2{
+    width: 50%;
+    min-width: 450px;
+}
+
+.sectionTwo h2{
+    color:#DCA000;
+    text-align: center;
+}

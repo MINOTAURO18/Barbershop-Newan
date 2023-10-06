@@ -17,7 +17,7 @@ const NavBar: React.FC<NavProps> = ({darkMode, setDarkMode}) => {
         darkMode === false ? setDarkMode(true) : setDarkMode(false)
       }
     return(
-        <header className={`${styles.header} fixed  w-full flex justify-between px-8%  h-14`}>
+        <header className={`${styles.header} absolute w-full flex justify-between px-8%  h-14`}>
             <img className='w-10'  src={logo} alt="logo" />
             <div className={`${styles.redes} flex gap-3 items-center` }>
                 <img onClick={dark} className='w-7' src={darkMode === false ? moon : sun} alt="" />
