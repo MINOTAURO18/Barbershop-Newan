@@ -82,6 +82,11 @@
     box-shadow: 0 0 10px rgba(94, 84, 1, 0.9);
    }
 
+   .card:hover{
+     transform: translateY(-3px);
+     transition: all .3s ease-in-out;
+   }
+
    .sectionFour .efect{
     view-timeline-name: --revealing-image;
     view-timeline-axis: block;

@@ -17,16 +17,16 @@ const SectionThree = () => {
             </div>
 
             <article className={`${styles.cards} flex gap-8 flex-wrap justify-center`}>
-                <div className={`${styles.efect} relative`}>
+                <div className={`${styles.efect} relative hover:animate-jump animate-once animate-ease-linear`}>
                     <img className='w-80 rounded-xl' src={img1} alt="" />
                     <span>tipo 1</span>
                 </div>
-                <div className={`${styles.efect} relative`}>
+                <div className={`${styles.efect} relative hover:animate-jump animate-once animate-ease-linear`}>
                     <img className='w-80 rounded-xl' src={img2} alt="" />
                     <span>tipo 1</span>
                 </div>
 
-                <div className={`${styles.efect} relative`}>
+                <div className={`${styles.efect} relative hover:animate-jump animate-once animate-ease-linear`}>
                     <img className='w-80 rounded-xl' src={img3} alt="" />
                     <span>tipo 1</span>
                 </div>

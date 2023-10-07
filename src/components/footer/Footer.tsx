@@ -1,6 +1,6 @@
 const Footer = () => {
     return(
-        <footer className="bg-black flex px-8% py-5 text-white justify-between">
+        <footer className="bg-black flex px-8% py-5 text-white justify-between font-semibold">
             <span>© Newan</span>
             <span>Made By JAMY</span>
         </footer>

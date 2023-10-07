@@ -13,7 +13,7 @@ const SectionFive = () => {
         <hr className="w-32" />
       </div>
       <article className={`${styles.container} flex justify-center flex-wrap items-center gap-20`}>
-      <img className={`${styles.bg2} ${styles.efect}`} src={bg3} alt="" />
+      <img className={`${styles.bg2} ${styles.efect} hover:animate-jump animate-once animate-ease-linear`} src={bg3} alt="" />
        <div className={`${styles.efect} ${styles.prices} flex flex-col gap-4 w-96`}>
           <h3 className="font-semibold text-2xl">Sobre nosotros</h3>
           <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, debitis nemo, molestias beatae, harum sequi eius quisquam assumenda iste ratione odio. Ea, earum autem laboriosam repudiandae rem accusantium quidem eaque!, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, et similique qui at maxime repellendus commodi facilis. Est illo ex dolore, fugiat vero quaerat qui debitis? Doloribus hic autem eius.</p>

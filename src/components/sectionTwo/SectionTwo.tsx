@@ -13,7 +13,7 @@ const SectionTwo = () => {
         <hr className="w-32" />
       </div>
       <article className={`${styles.container} flex justify-center flex-wrap items-center gap-20`}>
-      <img className={`${styles.bg2} ${styles.efect} z-20`} src={bg2} alt="" />
+      <img className={`${styles.bg2} ${styles.efect} z-20 hover:animate-jump animate-once animate-ease-linear`} src={bg2} alt="" />
        <div className={`${styles.efect} ${styles.prices} flex flex-col gap-4 w-96`}>
           <h3 className="font-semibold text-2xl">Servicios</h3>
           <div className="flex flex-col gap-3 ">
