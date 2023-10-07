@@ -1,5 +1,5 @@
 .sectionTwo {
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
   width: 100%;
   min-height: 90vh;
 }
@@ -9,7 +9,7 @@
 }
 
 .sectionTwo hr{
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     border-width: 1px;
 }
 

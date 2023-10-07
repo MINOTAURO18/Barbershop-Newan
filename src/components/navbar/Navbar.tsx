@@ -8,7 +8,7 @@ const NavBar = () => {
 
     
     return(
-        <header className={`${styles.header} absolute w-full flex justify-between px-8%  h-14`}>
+        <header className={`${styles.header} absolute w-full flex justify-between px-8%  h-16`}>
             <img className='w-10'  src={logo} alt="logo" />
             <div className={`${styles.redes} flex gap-3 items-center` }>
                 <a href="#"><img className='w-7' src={whatsapp} alt="" /></a>
