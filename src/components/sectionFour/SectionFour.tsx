@@ -1,5 +1,8 @@
 import styles from "./sectionFour.module.css";
 import shair from "../../assets/shair.svg";
+import profile1 from "../../assets/profile1.webp";
+import profile2 from "../../assets/profile2.webp";
+import profile3 from "../../assets/profile3.webp";
 
 const SectionFour = () => {
   return (
@@ -13,10 +16,26 @@ const SectionFour = () => {
         <hr className="w-32" />
       </div>
 
-      <article>
+      <article className="flex justify-center items-center gap-16 flex-wrap">
         <div className={`${styles.card}`}>
           <div className={`${styles.cardbordertop}`}></div>
-          <div className={`${styles.img}`}></div>
+          <img className={`${styles.img}`} src={profile1}/>
+          <span> Person</span>
+          <p className={`${styles.job}`}> Job Title</p>
+          <button> Click</button>
+        </div>
+
+        <div className={`${styles.card}`}>
+          <div className={`${styles.cardbordertop}`}></div>
+          <img className={`${styles.img}`} src={profile2}/>
+          <span> Person</span>
+          <p className={`${styles.job}`}> Job Title</p>
+          <button> Click</button>
+        </div>
+
+        <div className={`${styles.card}`}>
+          <div className={`${styles.cardbordertop}`}></div>
+          <img className={`${styles.img}`} src={profile3}/>
           <span> Person</span>
           <p className={`${styles.job}`}> Job Title</p>
           <button> Click</button>
