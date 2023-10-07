@@ -1,4 +1,5 @@
 .sectionTwo {
+    position: sticky;
     background-color: rgb(7, 7, 7);
   width: 100%;
   min-height: 90vh;
@@ -67,6 +68,102 @@
   
     animation-range: entry 25% cover 50%;
 }
+
+span.item {
+    position:absolute;
+    top: 80px;
+    right: 0;
+    width: 6rem;
+    height: 5rem;
+    transform: rotate(90deg) skewX(-12deg);
+    border-radius: 1.5rem;
+    background: linear-gradient(45deg, #978000, rgb(119, 48, 0));
+    filter: blur(5rem);
+    opacity: 0.8;
+    display: none;
+    z-index:-1 ;
+  }
+
+  @media (width > 200px) {
+    span.item {
+      right: 100px; 
+      opacity: 0.8; 
+      display: block; 
+    }
+  }
+
+
+  span.item2 {
+    position:absolute;
+    bottom:10px;
+    left: 60%;
+    width: 6rem;
+    height: 5rem;
+    transform: rotate(50deg) skewX(-12deg);
+    border-radius: 1.5rem;
+    background: linear-gradient(45deg, #c7a902, rgb(119, 48, 0));
+    filter: blur(5rem);
+    opacity: 0.8;
+    display: none;
+    z-index:-1 ;
+  }
+
+  @media (width > 200px) {
+    span.item2 {
+      right: 100px; 
+      opacity: 0.8; 
+      display: block; 
+    }
+  }
+
+
+  span.item3 {
+    position:absolute;
+    top: 40%;
+    left: 0;
+    width: 6rem;
+    height: 4rem;
+    transform: rotate(90deg) skewX(-12deg);
+    border-radius: 1.5rem;
+    background: linear-gradient(45deg, #caa501, rgb(139, 84, 0));
+    filter: blur(5rem);
+    opacity: 0.8;
+    display: none;
+    z-index:-1 ;
+  }
+
+  @media (width > 200px) {
+    span.item3 {
+      right: 100px; 
+      opacity: 0.8; 
+      display: block; 
+    }
+  }
+
+  span.item4 {
+    position:absolute;
+    top: 150px;
+    left: 30%;
+    width: 6rem;
+    height: 5rem;
+    transform: rotate(90deg) skewX(-12deg);
+    border-radius: 1.5rem;
+    background: linear-gradient(45deg, #978800, rgb(119, 64, 0));
+    filter: blur(5rem);
+    opacity: 0.8;
+    display: none;
+    z-index:-1 ;
+  }
+
+  @media (width > 200px) {
+    span.item4 {
+      right: 100px; 
+      opacity: 0.8; 
+      display: block; 
+    }
+  }
+
+
 
 @keyframes show {
     from{

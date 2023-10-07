@@ -1,4 +1,5 @@
 .sectionFour{
+    position: sticky;
     width: 100%;
     min-height: 90vh;
     color: black;
@@ -21,15 +22,15 @@
 }
 
 .card {
-    width: 300px;
+    width: 280px;
     height: 350px;
-    border-width: 2px;
+    border-width: 2px 0 2px 0;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.877);
+    background-color: rgba(255, 255, 255, 0.007);
    }
    
    .card .cardbordertop {
@@ -57,8 +58,9 @@
    }
    
    .card .img {
-    width: 100%;
+    width: 92%;
     height: auto;
+    border-radius: 10px;
     background: #DCA000;
     margin: auto;
     background-position: center;
@@ -79,3 +81,121 @@
    .card button:hover {
     box-shadow: 0 0 10px rgba(94, 84, 1, 0.9);
    }
+
+   .sectionFour .efect{
+    view-timeline-name: --revealing-image;
+    view-timeline-axis: block;
+  
+    animation-name: show;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-timeline: --revealing-image;
+  
+    animation-range: entry 25% cover 50%;
+  }
+
+  span.item {
+    position:absolute;
+    top: 80px;
+    right: 0;
+    width: 6rem;
+    height: 5rem;
+    transform: rotate(90deg) skewX(-12deg);
+    border-radius: 1.5rem;
+    background: linear-gradient(45deg, #978000, rgb(119, 48, 0));
+    filter: blur(5rem);
+    opacity: 0.8;
+    display: none;
+    z-index:-1 ;
+  }
+
+  @media (width > 200px) {
+    span.item {
+      right: 100px; 
+      opacity: 0.8; 
+      display: block; 
+    }
+  }
+
+
+  span.item2 {
+    position:absolute;
+    bottom:10px;
+    left: 60%;
+    width: 6rem;
+    height: 5rem;
+    transform: rotate(50deg) skewX(-12deg);
+    border-radius: 1.5rem;
+    background: linear-gradient(45deg, #c7a902, rgb(119, 48, 0));
+    filter: blur(5rem);
+    opacity: 0.8;
+    display: none;
+    z-index:-1 ;
+  }
+
+  @media (width > 200px) {
+    span.item2 {
+      right: 100px; 
+      opacity: 0.8; 
+      display: block; 
+    }
+  }
+
+
+  span.item3 {
+    position:absolute;
+    top: 40%;
+    left: 0;
+    width: 6rem;
+    height: 4rem;
+    transform: rotate(90deg) skewX(-12deg);
+    border-radius: 1.5rem;
+    background: linear-gradient(45deg, #caa501, rgb(139, 84, 0));
+    filter: blur(5rem);
+    opacity: 0.8;
+    display: none;
+    z-index:-1 ;
+  }
+
+  @media (width > 200px) {
+    span.item3 {
+      right: 100px; 
+      opacity: 0.8; 
+      display: block; 
+    }
+  }
+
+  span.item4 {
+    position:absolute;
+    top: 150px;
+    left: 30%;
+    width: 6rem;
+    height: 5rem;
+    transform: rotate(90deg) skewX(-12deg);
+    border-radius: 1.5rem;
+    background: linear-gradient(45deg, #978800, rgb(119, 64, 0));
+    filter: blur(5rem);
+    opacity: 0.8;
+    display: none;
+    z-index:-1 ;
+  }
+
+  @media (width > 200px) {
+    span.item4 {
+      right: 100px; 
+      opacity: 0.8; 
+      display: block; 
+    }
+  }
+  
+  @keyframes show {
+      from{
+          opacity: 0;
+          scale: 25%;
+      }
+  
+      to{
+          opacity: 1;
+          scale: 100%;
+      }
+  }

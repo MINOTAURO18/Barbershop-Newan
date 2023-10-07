@@ -1,6 +1,6 @@
 import styles from "./sectionFive.module.css";
 import shair from '../../assets/shair.svg'
-import bg2 from '../../assets/bg2.webp'
+import bg3 from '../../assets/bg3.webp'
 
 const SectionFive = () => {
   return (
@@ -13,10 +13,10 @@ const SectionFive = () => {
         <hr className="w-32" />
       </div>
       <article className={`${styles.container} flex justify-center flex-wrap items-center gap-20`}>
-      <img className={`${styles.bg2} ${styles.efect}`} src={bg2} alt="" />
+      <img className={`${styles.bg2} ${styles.efect}`} src={bg3} alt="" />
        <div className={`${styles.efect} ${styles.prices} flex flex-col gap-4 w-96`}>
           <h3 className="font-semibold text-2xl">Sobre nosotros</h3>
-          <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, debitis nemo, molestias beatae, harum sequi eius quisquam assumenda iste ratione odio. Ea, earum autem laboriosam repudiandae rem accusantium quidem eaque!</p>
+          <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, debitis nemo, molestias beatae, harum sequi eius quisquam assumenda iste ratione odio. Ea, earum autem laboriosam repudiandae rem accusantium quidem eaque!, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, et similique qui at maxime repellendus commodi facilis. Est illo ex dolore, fugiat vero quaerat qui debitis? Doloribus hic autem eius.</p>
           <div className="flex flex-col gap-3 ">
             
           </div>

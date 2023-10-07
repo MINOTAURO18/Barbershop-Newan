@@ -17,16 +17,16 @@ const SectionThree = () => {
             </div>
 
             <article className={`${styles.cards} flex gap-8 flex-wrap justify-center`}>
-                <div className='relative'>
+                <div className={`${styles.efect} relative`}>
                     <img className='w-80 rounded-xl' src={img1} alt="" />
                     <span>tipo 1</span>
                 </div>
-                <div className='relative'>
+                <div className={`${styles.efect} relative`}>
                     <img className='w-80 rounded-xl' src={img2} alt="" />
                     <span>tipo 1</span>
                 </div>
 
-                <div className='relative'>
+                <div className={`${styles.efect} relative`}>
                     <img className='w-80 rounded-xl' src={img3} alt="" />
                     <span>tipo 1</span>
                 </div>

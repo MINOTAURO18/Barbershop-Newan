@@ -17,7 +17,7 @@ const SectionFour = () => {
       </div>
 
       <article className="flex justify-center items-center gap-16 flex-wrap">
-        <div className={`${styles.card}`}>
+        <div className={`${styles.card} ${styles.efect}`}>
           <div className={`${styles.cardbordertop}`}></div>
           <img className={`${styles.img}`} src={profile1}/>
           <span> Person</span>
@@ -25,7 +25,7 @@ const SectionFour = () => {
           <button> Click</button>
         </div>
 
-        <div className={`${styles.card}`}>
+        <div className={`${styles.card} ${styles.efect}`}>
           <div className={`${styles.cardbordertop}`}></div>
           <img className={`${styles.img}`} src={profile2}/>
           <span> Person</span>
@@ -33,7 +33,7 @@ const SectionFour = () => {
           <button> Click</button>
         </div>
 
-        <div className={`${styles.card}`}>
+        <div className={`${styles.card} ${styles.efect}`}>
           <div className={`${styles.cardbordertop}`}></div>
           <img className={`${styles.img}`} src={profile3}/>
           <span> Person</span>
@@ -41,6 +41,11 @@ const SectionFour = () => {
           <button> Click</button>
         </div>
       </article>
+
+      <span className={styles.item}></span>
+      <span className={styles.item2}></span>
+      <span className={styles.item3}></span>
+      <span className={styles.item4}></span>
     </section>
   );
 };
