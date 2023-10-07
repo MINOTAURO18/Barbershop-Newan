@@ -20,3 +20,9 @@
     transition: all .3s ease;
 
 }
+
+@media (width < 500px) {
+    .sectionOne h1{
+        font-size: 2.5rem;
+    }
+}

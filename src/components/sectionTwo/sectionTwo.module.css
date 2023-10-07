@@ -1,4 +1,5 @@
 .sectionTwo {
+    background-color: rgb(7, 7, 7);
   width: 100%;
   min-height: 90vh;
 }
@@ -8,7 +9,7 @@
 }
 
 .sectionTwo hr{
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border-width: 1px;
 }
 
@@ -27,6 +28,7 @@
 .sectionTwo h4{
     font-size: 18px;
     font-weight: 700;
+    color: white;
 }
 
 .sectionTwo h3, h5{
@@ -52,4 +54,28 @@
 
 .sectionTwo .btn:hover{
     box-shadow: 0 0 10px rgba(94, 84, 1, 0.9);
+}
+
+.sectionTwo .efect{
+    view-timeline-name: --revealing-image;
+    view-timeline-axis: block;
+  
+    animation-name: show;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-timeline: --revealing-image;
+  
+    animation-range: entry 25% cover 50%;
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
 }

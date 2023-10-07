@@ -1,13 +1,14 @@
 .sectionThree{
     width: 100%;
     min-height: 80vh;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .sectionThree h2{
     text-align: center;
     font-weight: 700;
     font-size: 22px;
+    color: #dca100c2;
 
 }
 
@@ -16,12 +17,12 @@
 }
 
 .sectionThree hr{
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     border-width: 1px;
 }
 
 .sectionThree span{
-    background-color: #dca100c2;
+    background-color: #dca100e8;
     color: black;
     position: absolute;
     left: 35%;
@@ -38,5 +39,5 @@
 }
 
 .sectionThree span:hover{
-    box-shadow: 0 0 10px rgba(94, 84, 1, 0.9);
+    box-shadow: 0 0 10px rgb(155, 139, 0);
 }
